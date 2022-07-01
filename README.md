@@ -25,4 +25,4 @@ Output: For each string, output 1 or 0 only, indicating whether that string was 
 6. A sequence of lines representing transitions, each being a comma separated list of three values s,c,t denoting a transition from s to t on symbol c.  
 • DFA: s,c,t defines \delta (s; c) = t. There should be exactly one such line per (state, symbol) pair.  
 • NFA: s,c,t defines t 2 \delta(s; c). There can be any number of such lines per (state, symbol) pair. \eplision is denoted by an empty string (i.e. s„t defines t 2 \delta(s; \eplision)).  
-7. Finally, the word end on a line by itself.
+7. Finally, the word "end" on a line by itself.
