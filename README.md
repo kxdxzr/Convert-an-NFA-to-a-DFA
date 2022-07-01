@@ -12,4 +12,8 @@ Output: A string representing the equivalent epsilon-free NFA constructed using 
 Input: efnfa-to-dfa followed by an epsilon-free NFA.  
 Output: A string representing the equivalent DFA, in the format described in the appendices.  
 
+## Decide if the strings are in the language
+Input: compute-dfa followed by a DFA, then one or more strings to test.
+Output: For each string, output 1 or 0 only, indicating whether that string was accepted by the DFA.
+
 ## Format
