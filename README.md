@@ -1,5 +1,5 @@
 # Convert-an-NFA-to-a-DFA
-
+Done in 2019.
 ## Compute epsilon closures of the NFA
 Input: epsilon-closure followed by an NFA.  
 Output: One line per state, giving the epsilon closure of that state. E(q0) = fq0; q2; q3g would be output as q0:q0,q2,q3
